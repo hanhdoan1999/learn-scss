@@ -1,5 +1,5 @@
 # learn-scss
-#Viet CSS long nhau
+//Viet CSS long nhau
 
 #Dinh nghia bien
 
