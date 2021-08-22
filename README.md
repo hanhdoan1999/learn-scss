@@ -23,4 +23,4 @@
 
 * extend css => override
 
-* ::after => No thuong duoc su dung de them noi dung vao 1 phan tu co thuoc tinh noi dung
+* ::after => Duoc su dung de them noi dung vao 1 phan tu co thuoc tinh noi dung
