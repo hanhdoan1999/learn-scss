@@ -1,12 +1,12 @@
 # learn-scss
-# Viet CSS long nhau
+* Viet CSS long nhau
 
-# Dinh nghia bien
+* Dinh nghia bien
 
-# import file _header.scss => @import './_header'
+* import file _header.scss => @import './_header'
 
-# tao function vs mixin 
-```
+* tao function vs mixin 
+```javascript
 
  @mixin flexCenter($direction, $bg) {
      display: flex;
@@ -21,6 +21,6 @@
 
 ```
 
-# extend css => override
+* extend css => override
 
-# ::after => No thuong duoc su dung de them noi dung vao 1 phan tu co thuoc tinh noi dung
+* ::after => No thuong duoc su dung de them noi dung vao 1 phan tu co thuoc tinh noi dung
