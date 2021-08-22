@@ -6,6 +6,7 @@
 # import file _header.scss => @import './_header'
 
 # tao function vs mixin 
+```
 
  @mixin flexCenter($direction, $bg) {
      display: flex;
@@ -16,6 +17,9 @@
      background-color: $bg;
  }
 => USE:  @include flexCenter(column,$primaryBtn)
+
+
+```
 
 # extend css => override
 
