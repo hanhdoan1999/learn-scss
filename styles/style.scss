@@ -1,0 +1,26 @@
+//Viet CSS long nhau
+//Dinh nghia bien
+//import file _header.scss => @import './_header'
+
+
+//::after => No thuong duoc su dung de them noi dung vao 1 phan tu co thuoc tinh noi dung
+
+
+@import './variables';
+@import './header';
+
+header {
+    @include flexCenter(column,$primaryBtn);
+    // background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    @extend header;
+    background-color: lightsalmon;   //override
+}
+
+
+
+

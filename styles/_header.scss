@@ -1,0 +1,36 @@
+
+
+
+@mixin flexCenter($direction, $bg) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: $direction;
+    background-color: $bg;
+}
+
+
+footer {
+    @include flexCenter(row,$primaryBtn);
+    background-color: lightgreen;
+    button {
+        // background-color: $primaryBtn;
+        padding: 1rem 2rem;
+        outline: none;
+        border: none;
+        margin: 2rem ;
+        color: $textColor;
+        font-size: 18px;
+        font-weight: bold;
+        &:hover {  
+            background-color: lightpink;
+            &::after {
+                content: 'heeeeeeeeeeeeeee';   //sau khi hover content thay doi
+            }
+        }
+        
+        
+    }
+    
+}
